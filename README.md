@@ -54,7 +54,7 @@ sha256-keccak256-research/
 ## 📂 Data source & reproducibility
 
 The quantum data used for this project was generated using **LFDR**'s **Quantum Random Number Generator API**:
-🔗 [LFDR QRNG API documentation](https://lfdr.de/qrng_api/qrng?length=X&format=HEX)
+🔗 [LFDR QRNG API documentation](https://www.lfdr.de/QRNG/)
 
 If further details are needed, the following can be provided upon request:
 **Original data generation scripts**
