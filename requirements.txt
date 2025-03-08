@@ -1,0 +1,12 @@
+tensorflow==2.18.0
+tensorflow-macos==2.15.0  # Falls du auf macOS bist, sonst entfernen
+tensorflow-addons==0.23.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.37.1
+numpy==1.26.4
+Cython==3.0.12
+scikit-learn==1.6.1
+scipy==1.15.2
+h5py==3.12.1
+protobuf==4.25.5
+setuptools
