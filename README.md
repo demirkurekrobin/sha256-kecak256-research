@@ -1,23 +1,19 @@
 # Keccak-256 Cryptanalysis using AI & Quantum Randomness  
 
-## 🔬 Forschung zur Sicherheit von Keccak-256 mit AI & Quantenzufallsgeneratoren  
+## 🔬 Researching Keccak-256 security using AI & quantum random generators
 
-🚀 **Dieses Projekt untersucht die Sicherheit von Keccak-256 mithilfe von KI, prozedural generierten Daten und Quantenzufallsgeneratoren.**  
-Mein vorheriges Research zu SHA-256 hat eine statistische Anomalie im Message Scheduler gezeigt, die eine Vorhersage von `w15`-Werten mit doppelter Wahrscheinlichkeit ermöglicht.  
-Jetzt wende ich dieselbe Methodik auf Keccak-256 an, um potenzielle Schwachstellen zu identifizieren und Ethereum sicherer zu machen.  
-
----
-
-## 🔑 Features & Methodik  
-
-✅ **AI-gestützte Kryptanalyse:** Deep Learning Modelle mit TensorFlow zur Mustererkennung in Keccak-256  
-✅ **Quantenzufallsgenerator:** Erzeugt hochentropische Trainingsdaten zur Eliminierung von Overfitting  
-✅ **Prozedural generierte Daten:** Gigabyteweise Datensätze zur robusten Trainingsdatengenerierung  
-✅ **Cython & Low-Level C-Optimierung:** Performance-Boost für extrem hohe Hash-Rate Verarbeitung  
-✅ **SHA-256 Erkenntnisse als Grundlage:** Erweiterung der erfolgreichen SHA-256 Analyse auf Keccak-256  
+🚀 **This project investigates Keccak-256 security using AI, procedurally generated data, and quantum random generators.**
+My previous research on SHA-256 showed a statistical anomaly in the message scheduler that allows prediction of `w15` values ​​with twice the probability.
+Now I'm applying the same methodology to Keccak-256 to identify potential vulnerabilities and make Ethereum more secure.
 
 ---
 
-## 📂 Projektstruktur  
+## 🔑 Features & Methodology
 
-📂 sha256-keccak256-research │── 📄 README.md # Diese Datei │── 📄 LICENSE # Open-Source-Lizenz │── 📄 requirements.txt # Benötigte Python-Pakete │── 📂 src/ # Hauptcode │ │── sha256_research.py # TensorFlow AI-Modell │ │── sha256_extension.pyx # Cython-Bridge zwischen Python & C │ │── sha256_buffer.c # Low-Level C-Implementierung für Hashing & Datenverwaltung │ │── sha256_buffer.h # Header-Datei für C │── 📂 data/ # Externe Datenquellen (optional) │ │── quantum_data_async_len.bin # Großes Quantendaten-Set (extern gehostet)
+**AI-supported cryptanalysis:** Deep learning models with TensorFlow for pattern recognition in Keccak-256
+**Quantum random generator:** Generates high-entropic training data to eliminate overfitting
+**Procedurally generated data:** Gigabyte-wide data sets for robust training data generation and prevention of overfitting, the training data set includes 300 million hashes
+**Cython & low-level C optimization:** Performance boost for extremely high hash rate processing
+**SHA-256 findings as a basis:** Extension of the successful SHA-256 analysis to Keccak-256
+
+---
