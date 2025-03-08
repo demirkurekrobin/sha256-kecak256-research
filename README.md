@@ -21,3 +21,31 @@ Now I'm applying the same methodology to Keccak-256 to identify potential vulner
 **SHA-256 findings as a basis:** Extension of the successful SHA-256 analysis to Keccak-256
 
 ---
+
+
+## 📊 First findings from SHA-256 research
+
+**Message Scheduler Anomaly:** The `w15` values ​​can be predicted with **double probability** under certain conditions.
+
+**AI finds correlations:** My models show that there are hidden patterns in SHA-256 that classical cryptography methods do not discover.
+
+**Why is this relevant for Keccak-256?** If a similar structure is found in Keccak, this could **have direct implications for Ethereum security.**
+
+---
+
+## 📥 Installation & Usage
+
+### 🔧 Requirements
+- Python 3.10
+- TensorFlow 2.18.0
+- NumPy, Cython, scikit-learn
+
+### 📌 Installation
+
+```bash
+git clone https://github.com/deinusername/sha256-keccak256-research.git
+cd sha256-keccak256-research
+pip install -r requirements.txt
+cd src/
+python3.10 setup.py build_ext --inplace
+python3.10 training.py
