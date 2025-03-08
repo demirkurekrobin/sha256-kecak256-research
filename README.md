@@ -11,9 +11,13 @@ Now I'm applying the same methodology to Keccak-256 to identify potential vulner
 ## 🔑 Features & Methodology
 
 **AI-supported cryptanalysis:** Deep learning models with TensorFlow for pattern recognition in Keccak-256
+
 **Quantum random generator:** Generates high-entropic training data to eliminate overfitting
+
 **Procedurally generated data:** Gigabyte-wide data sets for robust training data generation and prevention of overfitting, the training data set includes 300 million hashes
+
 **Cython & low-level C optimization:** Performance boost for extremely high hash rate processing
+
 **SHA-256 findings as a basis:** Extension of the successful SHA-256 analysis to Keccak-256
 
 ---
