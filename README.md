@@ -33,12 +33,42 @@ Now I'm applying the same methodology to Keccak-256 to identify potential vulner
 
 ---
 
+## 📂 Project structure
+
+```plaintext
+sha256-keccak256-research/
+│── README.md # This file
+│── LICENSE # Open source license
+│── requirements.txt # Required Python packages
+│── src/ # Main code
+│ ├── setup.py # Build script for Cython extension
+│ ├── sha256_buffer.c # Low-level C implementation for hashing & data management
+│ ├── sha256_buffer.h # Header file for C
+│ ├── sha256_extension.c # Generated C code from Cython
+│ ├── sha256_extension.pyx # Cython bridge between Python & C
+│ ├── training.py # TensorFlow AI model
+```
+
+---
+
+## 📂 Data source & reproducibility
+
+The quantum data used for this project was generated using **LFDR**'s **Quantum Random Number Generator API**:
+🔗 [LFDR QRNG API documentation](https://lfdr.de/qrng_api/qrng?length=X&format=HEX)
+
+If further details are needed, the following can be provided upon request:
+**Original data generation scripts**
+**The full quantum data** (e.g quantum_data_async_len.bin & quantum_data_async_data.bin)
+**A pre-trained model**
+
 ## 📥 Installation & Usage
 
 ### 🔧 Requirements
 - Python 3.10
 - TensorFlow 2.18.0
 - NumPy, Cython, scikit-learn
+
+---
 
 ### 📌 Installation
 
