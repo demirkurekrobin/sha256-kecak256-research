@@ -73,7 +73,7 @@ If further details are needed, the following can be provided upon request:
 ### 📌 Installation
 
 ```bash
-git clone https://github.com/deinusername/sha256-keccak256-research.git
+git clone https://github.com/demirkurekrobin/sha256-keccak256-research.git
 cd sha256-keccak256-research
 pip install -r requirements.txt
 cd src/
