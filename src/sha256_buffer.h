@@ -20,7 +20,7 @@ struct ctx_type {
     uint32_t secondBuffer;
 };
 
-extern struct ctx_type ctx;  // ✅ **Wichtig: `extern` hinzufügen**
+extern struct ctx_type ctx;
 
 void init();
 void nextData();
