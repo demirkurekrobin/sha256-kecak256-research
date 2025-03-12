@@ -6,6 +6,8 @@ import numpy as np
 import random
 from tqdm import tqdm
 
+#Download pre-trained-model here: https://drive.google.com/file/d/1he5Y4bl-dpSwMWh7aFHehkMzhwzGUqpa/view?pli=1
+
 MODEL_PATH = "pre-trained-sha256_model.keras"
 PARAM_COUNT = 693
 SAMPLES_PER_CLASS = 100
