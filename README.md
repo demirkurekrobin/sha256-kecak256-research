@@ -56,10 +56,11 @@ sha256-keccak256-research/
 The quantum data used for this project was generated using **LFDR**'s **Quantum Random Number Generator API**:
 🔗 [LFDR QRNG API documentation](https://www.lfdr.de/QRNG/)
 
+pre-trained model for validation: https://drive.google.com/file/d/1he5Y4bl-dpSwMWh7aFHehkMzhwzGUqpa/view?pli=1
+
 If further details are needed, the following can be provided upon request:
 **Original data generation scripts**
 **The full quantum data** (e.g quantum_data_async_len.bin & quantum_data_async_data.bin)
-**A pre-trained model**
 
 ## 📥 Installation & Usage
 
