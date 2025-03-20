@@ -1,9 +1,9 @@
 # SHA-256 Cryptanalysis using AI & Quantum Randomness  
 
-## 🔬 Researching Keccak-256 security using AI & quantum random generators
+## 🔬 Researching SHA-256 security using AI & quantum random generators
 
 🚀 **This project investigates SHA-256 security using AI, procedurally generated data, and quantum random generators.**
-My previous research on SHA-256 showed a statistical anomaly in the message scheduler that allows prediction of `w15` values ​​with twice the probability.
+My previous research on SHA-256 showed a statistical anomaly in the message scheduler that allows prediction of `w15`(The input length of the message) values ​​with twice the probability. Reducing the searchspace by 50%.
 
 ---
 
@@ -33,7 +33,7 @@ My previous research on SHA-256 showed a statistical anomaly in the message sche
 ## 📂 Project structure
 
 ```plaintext
-sha256-keccak256-research/
+sha256-exploit/
 │── README.md # This file
 │── LICENSE # Open source license
 │── requirements.txt # Required Python packages
@@ -71,8 +71,8 @@ If further details are needed, the following can be provided upon request:
 ### 📌 Installation
 
 ```bash
-git clone https://github.com/demirkurekrobin/sha256-keccak256-research.git
-cd sha256-keccak256-research
+git clone https://github.com/demirkurekrobin/sha256-exploit.git
+cd sha256-exploit
 pip install -r requirements.txt
 cd src/
 python3.10 setup.py build_ext --inplace
