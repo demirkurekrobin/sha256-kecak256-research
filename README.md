@@ -1,10 +1,9 @@
-# Keccak-256 Cryptanalysis using AI & Quantum Randomness  
+# SHA-256 Cryptanalysis using AI & Quantum Randomness  
 
 ## 🔬 Researching Keccak-256 security using AI & quantum random generators
 
-🚀 **This project investigates Keccak-256 security using AI, procedurally generated data, and quantum random generators.**
+🚀 **This project investigates SHA-256 security using AI, procedurally generated data, and quantum random generators.**
 My previous research on SHA-256 showed a statistical anomaly in the message scheduler that allows prediction of `w15` values ​​with twice the probability.
-Now I'm applying the same methodology to Keccak-256 to identify potential vulnerabilities and make Ethereum more secure.
 
 ---
 
@@ -28,8 +27,6 @@ Now I'm applying the same methodology to Keccak-256 to identify potential vulner
 **Message Scheduler Anomaly:** The `w15` values ​​can be predicted with **double probability** under certain conditions.
 
 **AI finds correlations:** My models show that there are hidden patterns in SHA-256 that classical cryptography methods do not discover.
-
-**Why is this relevant for Keccak-256?** If a similar structure is found in Keccak, this could **have direct implications for Ethereum security.**
 
 ---
 
